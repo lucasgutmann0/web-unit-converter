@@ -1,0 +1,142 @@
+@font-face { font-family: Montserrat; font-weight: bold; src: url('./Montserrat/static/Montserrat-Bold.ttf'); } 
+@font-face { font-family: Montserrat; font-weight: 400; src: url('./Montserrat/static/Montserrat-Regular.ttf'); } 
+@font-face { font-family: Montserrat; font-weight: 600; src: url('./Montserrat/static/Montserrat-Medium.ttf');}
+
+html {
+  height: 100%;
+}
+body {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  margin: auto;
+  height: 100%;
+  display: flex;
+  background-color: #243743;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  height: 18vw;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #67a6a5;
+  border-radius: 3vw;
+}
+
+h1 {
+  margin: 0;
+  padding-left: 5%;
+  font-size: 5vw;
+  font-weight: bold;
+  color: #e4eada;
+}
+
+h2 {
+  margin: 0;
+  padding-left: 5%;
+  font-size: 3vw;
+  font-weight: 600;
+  color: #cfd1d0;
+}
+
+
+.in-out {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2vw;
+  gap: 3vw;
+  width: 100%;
+  
+}
+.ins {
+  font-family: Montserrat, sans-serif;
+  padding: 2%;
+  height: 4vw;
+  border-radius: 1.5vw;
+  font-size: 3vw;
+  border: none;
+}
+
+#input {
+  width: 60%;
+}
+
+#output {
+  width: 40%;
+}
+
+.opt-btns {
+  display: grid;
+  margin-top: 2vw;
+  gap: 5vw;
+  width: 100%;
+  justify-content: stretch;
+}
+
+#option-box {
+  grid-row-start: 1;
+  width: 25vw;
+  height: 6vw;
+  font-size: 2.5vw;
+  padding: 2%;
+  border: none;
+  row-gap: 2vw;
+  font-family: Montserrat, sans-serif;
+  justify-self: stretch;
+}
+
+.buttons {
+  grid-row-start: 1;
+  display: grid;
+}
+button {
+  text-decoration: none;
+  text-align: center;
+  border-radius: 1vw;
+  border: none;
+  font-size: 2.5vw;
+  font-family: Montserrat, sans-serif;
+  width: 20vw;
+  margin: 0;
+  padding: 0;
+}
+
+.convert {
+  grid-row-start: 1;
+  justify-self: end;
+  background-color: #83d8d6;
+  transition: 0.3s;
+}
+
+.convert:hover {
+  background-color: #436c6c;
+  color: #FAF5EE;
+  font-weight: bold;
+}
+
+.exit{
+  justify-self: end;
+  align-self: stretch;
+  grid-row-start: 1;
+  transition: 0.3s;
+}
+
+.exit:hover {
+  background-color: #922841;
+  color: #FAF5EE;
+  font-weight: bold;
+}
+
+
+
