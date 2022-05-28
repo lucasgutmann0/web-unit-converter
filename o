@@ -1,0 +1,21 @@
+if (option == "0") { 
+        myOutput.value = (parseFloat(myInput * pxToVw).toFixed(5))
+        //pixel to viewport width
+    }  else {
+        console.log("uwu")
+    }/*else if (option == 1) {
+        res.text = parseFloat(input * pxToVh).toFixed(5)
+        //pixel to viewport Height
+    } else if (option == 2){
+        res.text = parseFloat(input * pxToEm).toFixed(5)
+        //pixel to Em
+    } else if (option == 3){
+        res.text = parseFloat(input * VwToPx).toFixed(5)
+        //viewport width to Pixel
+    } else if (option == 4){//pixel to viewport
+        res.text = parseFloat(input * VhToPx).toFixed(5)
+        //viewport Height to Pixel
+    } else if (option == 5){//pixel to viewport
+        res.text = parseFloat(input * EmToPx).toFixed(5)
+        //Em to Pixel
+    }*/
