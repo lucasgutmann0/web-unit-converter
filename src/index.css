@@ -68,11 +68,11 @@ h2 {
   border: none;
 }
 
-#input {
+#myInput {
   width: 60%;
 }
 
-#output {
+#myOutput {
   width: 40%;
 }
 
@@ -84,7 +84,7 @@ h2 {
   justify-content: stretch;
 }
 
-#option-box {
+#options {
   grid-row-start: 1;
   width: 25vw;
   height: 6vw;

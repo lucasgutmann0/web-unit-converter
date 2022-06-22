@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <title>Web Unit Converter App</title>
     <link rel="stylesheet" href="index.css" />
-    <script src="./main.js"></script>
   </head>
   <body>
     <div class="container">
@@ -13,18 +12,20 @@
         <h2>This is an app easy to use to convert web units</h2>
       </div>
       <div class="in-out">
-        <input type="number" name="input" class="ins" id="input" />
+        <input 
+          type="number" 
+          class="ins" 
+          id="myInput" />
         <input
           type="number"
-          name="input"
           class="ins"
-          id="output"
+          id="myOutput"
           readonly
           onmousedown="return false;"
         />
       </div>
       <div class="opt-btns">
-        <select name="options" id="option-box">
+        <select name="options" id="options">
           <option value="0">Px to Vw</option>
           <option value="1">Px to Vh</option>
           <option value="2">Px to Em</option>
@@ -33,10 +34,11 @@
           <option value="5">Em to Px</option>
         </select>
         <div class="buttons">
-          <button class="exit">Exit</button>
-          <button class="convert" onclick="myfunc()">Convert</button>
+          <!--<button class="exit" onclick="exit()">Exit</button>-->
+          <button class="convert" onclick="convert()">Convert</button>
         </div>
       </div>
     </div>
+    <script src="./main.js"></script>
   </body>
 </html>
